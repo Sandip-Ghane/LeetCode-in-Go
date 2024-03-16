@@ -11,7 +11,6 @@ func twoSum(nums []int, target int) []int {
 			// ok 为 true
 			// 说明在i之前，存在 nums[j] == a
 			return []int{j, i}
-			// 注意，顺序是j，i
 		}
 
 		// 把b和i的值，存入map
